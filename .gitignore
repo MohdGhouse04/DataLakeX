@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Data files
+data/raw/*
+data/processed/*
+data/quarantine/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/quarantine/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Testing and coverage
+.coverage
+htmlcov/
